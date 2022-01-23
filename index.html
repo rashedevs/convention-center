@@ -8,6 +8,8 @@
     <title>Convention-Center</title>
     <!---------------------------------------------custom-css-------------------------------------------->
     <link rel="stylesheet" href="css/style.css">
+    <!-------------------------------------------font-awesome-kit---------------------------------------->
+    <script src="https://kit.fontawesome.com/9cde0eb940.js" crossorigin="anonymous"></script>
     <!-----------------------------------------bootstrap-css-added--------------------------------------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -39,7 +41,7 @@
             </div>
         </nav>
         <!------------------------carousel-part--------------->
-        <section class="container">
+        <section class="container my-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -96,22 +98,144 @@
     </header>
     <main>
         <!-------------------------------------------------main-part-started--------------------------------------->
-        <!-------------------------bonus-package-part------------>
+        <!--------------------------bonus-part-------------->
         <section class="container my-5">
             <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-lg-8 col-md-6 col-sm-12">
+                <div class="col-lg-8 col-md-12 col-sm-12">
                     <img class="rounded" style="width:100%; height: 380px;" src="./images/sea3.png" alt="">
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                     <h2 class="my-3">Good Vibes, Endless Sun</h2>
-                    <button style="height: 44px;" type="button" class="btn btn-primary text-light mb-3">More
-                        About The Package >>
+                    <button style="height: 44px;" type="button" class="btn btn-primary text-light mb-3">Explore More >>
                     </button>
                 </div>
             </div>
         </section>
+        <!--------------------------package-part------------>
+        <section>
+            <h3 class="text-center">Our Packages</h3>
+            <!-- <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-bs-autohide="false">
+                <div class="toast-header">
+                    <img src="..." class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Hello, world! This is a toast message.
+                </div>
+            </div> -->
+            <section class="container my-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <h4 class="card-title">$300</h4>
+                                <br>
+                                <h5>Business fair</h5>
+                                <br>
+                                <p class="card-text">For most businesses event
+                                    like book fair, craft fair.</p>
+                                <p><i class="fas fa-check text-primary"></i> Limited space access</p>
+                                <p><i class="fas fa-check text-primary"></i> Security facility</p>
+                                <p><i class="fas fa-check text-primary"></i> Event support</p>
+                                <p><i class="fas fa-check text-primary"></i> Decoration design</p>
+                                <p><i class="fas fa-check text-primary"></i> Per day bill</p>
+                            </div>
+                            <div class="">
+                                <button style="height:45px; width:207px;"
+                                    class="btn btn-primary text-light rounded-pill"><strong>Choose
+                                        plan</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <h4 class="card-title">$500</h4>
+                                <br>
+                                <h5>Wedding basic</h5>
+                                <br>
+                                <p class="card-text">For weddings with basic plan
+                                    and limited item.</p>
+                                <p><i class="fas fa-check text-primary"></i> Full space access</p>
+                                <p><i class="fas fa-check text-primary"></i> Food arrangement</p>
+                                <p><i class="fas fa-check text-primary"></i> Management support</p>
+                                <p><i class="fas fa-check text-primary"></i> Decoration design</p>
+                                <p><i class="fas fa-check text-primary"></i> Bill as shift</p>
+                            </div>
+                            <div class="">
+                                <button style="height:45px; width:207px;"
+                                    class="btn btn-primary text-light rounded-pill"><strong>Choose
+                                        plan</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <h4 class="card-title">$800</h4>
+                                <br>
+                                <h5>Wedding plus</h5>
+                                <br>
+                                <p class="card-text">For most weddings with premium plans.</p>
+                                <p><i class="fas fa-check text-primary"></i> Full space access</p>
+                                <p><i class="fas fa-check text-primary"></i> Dedicated team</p>
+                                <p><i class="fas fa-check text-primary"></i> Buffet food</p>
+                                <p><i class="fas fa-check text-primary"></i> Premium decoration</p>
+                                <p><i class="fas fa-check text-primary"></i> Pay as plan</p>
+                            </div>
+                            <div class="">
+                                <button style="height:45px; width:207px;"
+                                    class="btn btn-primary text-light rounded-pill"><strong>Choose
+                                        plan</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <h4 class="card-title">$1200</h4>
+                                <br>
+                                <h5>Corporate event</h5>
+                                <br>
+                                <p class="card-text">For most corporate business
+                                    events.</p>
+                                <p><i class="fas fa-check text-primary"></i> Full space access</p>
+                                <p><i class="fas fa-check text-primary"></i> Dedicated team</p>
+                                <p><i class="fas fa-check text-primary"></i> Buffet food</p>
+                                <p><i class="fas fa-check text-primary"></i> Premium decoration</p>
+                                <p><i class="fas fa-check text-primary"></i> Pay as plan</p>
+                            </div>
+                            <div class="">
+                                <button style="height:45px; width:207px;"
+                                    class="btn btn-primary text-light rounded-pill"><strong>Choose
+                                        plan</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+            </section>
+        </section>
+        <br>
+        <!-------------------------questions-part----------->
+        <section class="container my-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, similique.
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores ipsam fugiat at,
+                        mollitia quia, quas ullam a quod ab, libero temporibus exercitationem sequi! Temporibus rerum
+                        sed at nostrum itaque.</p>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12 rounded">
+                    <img class="h-100 w-100" src="./images/people.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
