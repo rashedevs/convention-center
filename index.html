@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <!-------------------------------------------------banner-part------------------------------------------->
+        <!----------------------------------------------------banner-part------------------------------------------->
         <!-----------------------navbar-------------------->
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height:70px">
             <div class="container">
@@ -40,8 +40,8 @@
                 </div>
             </div>
         </nav>
-        <!------------------------carousel-part--------------->
-        <section class="container my-5">
+        <!---------------------carousel-part--------------->
+        <section class="container mb-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -273,7 +273,23 @@
             </section>
         </section>
     </main>
-    <!-----------------------------------------------footer-section------------------------------------------>
+    <!--------------------------------------------------------Toast----------------------------------------------->
+    <div class="container">
+        <div class="row">
+            <div class="toast" role="alert" data-animation="true" data-autohide="false" aria-live="assertive"
+                aria-atomic="true">
+                <div class="toast-header text-center">
+                    <img src="./images/icons/Vector.svg" class="rounded me-2" alt="...">
+                    <strong class="mr-auto">20% off on next booking </strong>
+                    <span><small> -------->close</small></span>
+                    <button type="button" class="btn-close ml-2 mb-1 close" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------Toast End--------------------------------------------->
+    <!------------------------------------------------------footer-section------------------------------------------>
     <footer>
         <section class="container-fluid mt-5">
             <div class="row bg-dark h-100 d-flex justify-content-between align-items-center p-4">
@@ -300,10 +316,23 @@
         </section>
     </footer>
 
-    <!-----------------------------------------bootstrap-script-added----------------------------------------->
+    <!-------------------------------------------------bootstrap-script-added----------------------------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script> -->
+    <script>
+        window.onload = (event) => {
+            let myAlert = document.querySelector('.toast');
+            let bsAlert = new bootstrap.Toast(myAlert);
+            bsAlert.show();
+        }
+    </script>
 </body>
 
 </html>
