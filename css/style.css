@@ -4,3 +4,62 @@ body{
     font-family: 'Poppins', sans-serif;
 /* font-family: 'Roboto', sans-serif; */
 }
+.nav-title{
+    color: #3E3E3E;
+    font-weight: 700;
+}
+.nav-menu{
+    font-weight: 500;
+}
+.slider-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.slider-button{
+    color: #3F87F5;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.bonus-button{
+    color: #FFFFFF;
+    background-color: #3F87F5;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.bonus-title{
+    color: #0A0826;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.bonus-paragraph{
+    color: #6C6C6C;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.package-title{
+    color: #0A0826;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.card-info{
+    color: #231D4F;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.font-awesome{
+    color: #5243C2;
+}
+.plan-button{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffddf3;
+}
+.except-button, .except-font{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.qa-title{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
