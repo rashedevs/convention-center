@@ -19,29 +19,36 @@
     <header>
         <!----------------------------------------------------banner-part------------------------------------------->
         <!-----------------------navbar-------------------->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height:70px">
-            <div class="container">
-                <h4>Abacus Convention Center</h4>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active mx-3" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active mx-3" aria-current="page" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active mx-3" aria-current="page" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active mx-3" aria-current="page" href="#">Subscribe</a>
-                        </li>
-                    </ul>
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <h4>Abacus Convention Center</h4>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span><img src="./images/icons/menu-2 1.svg" alt=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-3" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active mx-3" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active mx-3" aria-current="page" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active mx-3" aria-current="page" href="#">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </section>
         <!---------------------carousel-part--------------->
-        <section class="container mb-5">
+        <section class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -55,8 +62,8 @@
                     <div class="carousel-item active">
                         <img src="./images/banner.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>The perfect venue for your <br>next event</h3>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h3>Welcome to the Abacus Convention Center.</h3>
+                            <p>We give people a place to gather, invent, and celebrate.</p>
                             <button style="width: 168px; height: 44px;" type="button"
                                 class="btn btn-light text-primary mb-3">Book
                                 Now</button>
@@ -65,8 +72,8 @@
                     <div class="carousel-item">
                         <img src="./images/banner.png" class="d-block w-100 h-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>The perfect venue for your <br>next event</h3>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h3>Experience the new, where everything <br>is steps away.</h3>
+                            <p>We are committed to delivering excellent service as expectations at every event.</p>
                             <button style="width: 168px; height: 44px;" type="button"
                                 class="btn btn-light text-primary mb-3">Book
                                 Now</button><br>
@@ -75,8 +82,8 @@
                     <div class="carousel-item">
                         <img src="./images/banner.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>The perfect venue for your <br>next event</h3>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h3>The perfect venue for your <br>next event.</h3>
+                            <p>Working toward positive change, and endless possibility.</p>
                             <button style="width: 168px; height: 44px;" type="button"
                                 class="btn btn-light text-primary mb-3">Book
                                 Now</button>
@@ -107,20 +114,22 @@
 
                 <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                     <h2 class="my-3">Good Vibes, Endless Sun</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore excepturi maxime
-                        perferendis praesentium animi?</p>
-                    <button style="height: 44px;" type="button" class="btn btn-primary text-light mb-3">Explore More >>
-                    </button>
+                    <p>Abacus Convention Center is located at Kollam, facing Arabian Sea and the Backwaters. The
+                        luxurious hotel offers spa facilities and a swimming pool.</p>
+                    <a target="_blank" href="https://bdwedding.com/vendor/venues/AbacusConvention/"><button
+                            style="height: 44px;" type="button" class="btn btn-primary text-light mb-3">Explore More >>
+                        </button></a>
                 </div>
             </div>
         </section>
         <!--------------------------package-part------------>
         <section>
             <h3 class="text-center">Our Packages</h3>
+            <br>
             <section class="container my-5">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 bg-white g-4">
                     <div class="col">
-                        <div class="card h-100 border-0">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <h4 class="card-title">$300</h4>
                                 <br>
@@ -128,21 +137,21 @@
                                 <br>
                                 <p class="card-text">For most businesses event
                                     like book fair, craft fair.</p>
-                                <p><i class="fas fa-check text-primary"></i> Limited space access</p>
-                                <p><i class="fas fa-check text-primary"></i> Security facility</p>
-                                <p><i class="fas fa-check text-primary"></i> Event support</p>
-                                <p><i class="fas fa-check text-primary"></i> Decoration design</p>
-                                <p><i class="fas fa-check text-primary"></i> Per day bill</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Limited space access</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Security facility</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Event support</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Decoration design</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Per day bill</p>
                             </div>
-                            <div class="">
-                                <button style="height:45px; width:207px;"
-                                    class="btn btn-primary text-light rounded-pill"><strong>Choose
+                            <div class="mx-auto">
+                                <button style="height:45px; width:232px;"
+                                    class="btn btn-light text-primary rounded-pill"><strong>Choose
                                         plan</strong></button>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 border-0">
+                        <div class="card border-0">
                             <div class="card-body">
                                 <h4 class="card-title">$500</h4>
                                 <br>
@@ -150,42 +159,46 @@
                                 <br>
                                 <p class="card-text">For weddings with basic plan
                                     and limited item.</p>
-                                <p><i class="fas fa-check text-primary"></i> Full space access</p>
-                                <p><i class="fas fa-check text-primary"></i> Food arrangement</p>
-                                <p><i class="fas fa-check text-primary"></i> Management support</p>
-                                <p><i class="fas fa-check text-primary"></i> Decoration design</p>
-                                <p><i class="fas fa-check text-primary"></i> Bill as shift</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Full space access</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Food arrangement</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Management support</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Decoration design</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Bill as shift</p>
                             </div>
-                            <div class="">
-                                <button style="height:45px; width:207px;"
-                                    class="btn btn-primary text-light rounded-pill"><strong>Choose
+                            <div class="mx-auto">
+                                <button style="height:45px; width:232px;"
+                                    class="btn btn-light text-primary rounded-pill"><strong>Choose
                                         plan</strong></button>
                             </div>
                         </div>
+                        <br><br>
                     </div>
                     <div class="col">
-                        <div class="card h-100 border-0">
+                        <div style="position:relative; top:-40px; border:1px solid #3F87F5; border-radius: 25px;"
+                            class="card bg-primary text-light shadow-lg">
                             <div class="card-body">
+                                <span style="position: relative; left:190px; top: -1.7rem;"
+                                    class="badge rounded-pill bg-danger">Hot</span>
                                 <h4 class="card-title">$800</h4>
                                 <br>
                                 <h5>Wedding plus</h5>
                                 <br>
                                 <p class="card-text">For most weddings with premium plans.</p>
-                                <p><i class="fas fa-check text-primary"></i> Full space access</p>
-                                <p><i class="fas fa-check text-primary"></i> Dedicated team</p>
-                                <p><i class="fas fa-check text-primary"></i> Buffet food</p>
-                                <p><i class="fas fa-check text-primary"></i> Premium decoration</p>
-                                <p><i class="fas fa-check text-primary"></i> Pay as plan</p>
+                                <p><i class="fas fa-check-circle text-light"></i> Full space access</p>
+                                <p><i class="fas fa-check-circle text-light"></i> Dedicated team</p>
+                                <p><i class="fas fa-check-circle text-light"></i> Buffet food</p>
+                                <p><i class="fas fa-check-circle text-light"></i> Premium decoration</p>
+                                <p><i class="fas fa-check-circle text-light"></i> Pay as plan</p>
                             </div>
-                            <div class="">
-                                <button style="height:45px; width:207px;"
-                                    class="btn btn-primary text-light rounded-pill"><strong>Choose
+                            <div class="mx-auto">
+                                <button style="height:45px; width:232px;"
+                                    class="btn btn-light text-primary rounded-pill"><strong>Choose
                                         plan</strong></button>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 border-0">
+                        <div class="card  border-0">
                             <div class="card-body">
                                 <h4 class="card-title">$1200</h4>
                                 <br>
@@ -193,15 +206,15 @@
                                 <br>
                                 <p class="card-text">For most corporate business
                                     events.</p>
-                                <p><i class="fas fa-check text-primary"></i> Full space access</p>
-                                <p><i class="fas fa-check text-primary"></i> Dedicated team</p>
-                                <p><i class="fas fa-check text-primary"></i> Buffet food</p>
-                                <p><i class="fas fa-check text-primary"></i> Premium decoration</p>
-                                <p><i class="fas fa-check text-primary"></i> Pay as plan</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Full space access</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Dedicated team</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Buffet food</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Premium decoration</p>
+                                <p><i class="fas fa-check-circle text-primary"></i> Pay as plan</p>
                             </div>
-                            <div class="">
-                                <button style="height:45px; width:207px;"
-                                    class="btn btn-primary text-light rounded-pill"><strong>Choose
+                            <div class="mx-auto">
+                                <button style="height:45px; width:232px;"
+                                    class="btn btn-light text-primary rounded-pill"><strong>Choose
                                         plan</strong></button>
                             </div>
                         </div>
@@ -273,7 +286,7 @@
             </section>
         </section>
     </main>
-    <!--------------------------------------------------------Toast----------------------------------------------->
+    <!----------------------------------------------------------Toast----------------------------------------------->
     <div class="container">
         <div class="row">
             <div class="toast" role="alert" data-animation="true" data-autohide="false" aria-live="assertive"
@@ -281,7 +294,7 @@
                 <div class="toast-header text-center">
                     <img src="./images/icons/Vector.svg" class="rounded me-2" alt="...">
                     <strong class="mr-auto">20% off on next booking </strong>
-                    <span><small> -------->close</small></span>
+                    <span><small>. . . . . >close</small></span>
                     <button type="button" class="btn-close ml-2 mb-1 close" data-bs-dismiss="toast"
                         aria-label="Close"></button>
                 </div>
@@ -320,12 +333,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script> -->
+    <!------------------------------------------------js code for toast--------------------------------------------->
     <script>
         window.onload = (event) => {
             let myAlert = document.querySelector('.toast');
