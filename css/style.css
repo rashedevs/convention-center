@@ -5,11 +5,11 @@ body{
 /* font-family: 'Roboto', sans-serif; */
 }
 .nav-title{
-    color: #3E3E3E;
     font-weight: 700;
 }
 .nav-menu{
-    font-weight: 500;
+    font-weight: 700;
+    color:  #4DD637!important;
 }
 .slider-title{
     color: #FFFFFF;
